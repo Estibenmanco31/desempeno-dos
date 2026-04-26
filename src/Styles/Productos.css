@@ -1,0 +1,56 @@
+.productos-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.productos-page-content {
+    flex: 1;
+}
+
+.productos-header {
+    text-align: center;
+    padding: 4rem 2rem 2.5rem 2rem;
+}
+
+.productos-header h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: #111827;
+}
+
+.productos-header p {
+    color: #6b7280;
+    font-size: 1rem;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 0 5% 5rem 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .productos-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .productos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .productos-grid {
+        grid-template-columns: 1fr;
+    }
+}

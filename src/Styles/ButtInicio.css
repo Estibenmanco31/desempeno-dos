@@ -1,0 +1,23 @@
+.butt-inicio {
+    background-color: #f0a500;
+    color: #000000;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.butt-inicio:hover {
+    background-color: #f5b014;
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(240, 165, 0, 0.2);
+}
+
+.butt-inicio:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgba(240, 165, 0, 0.15);
+}

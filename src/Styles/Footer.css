@@ -1,0 +1,85 @@
+.footer-container {
+    background-color: #1a1a1a;
+    color: #dddddd;
+    padding: 4rem 10% 1.5rem 10%;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-section h4 {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-section p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: #aaaaaa;
+    max-width: 250px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.footer-section ul li a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #f5d72f;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons svg {
+    width: 20px;
+    height: 20px;
+    color: #aaaaaa;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icons svg:hover {
+    color: #f5d72f;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333333;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+    color: #666666;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
